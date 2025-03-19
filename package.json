@@ -4,14 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "build": "npm install --prefix backend && cd frontend && npm install && NODE_OPTIONS='--no-warnings' npx -p vite -p @vitejs/plugin-react vite build",
-  "start": "npm run start --prefix backend"
-},
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.8.3",
-    "zustand": "^5.0.3"
-  }
+  "license": "ISC"
 }

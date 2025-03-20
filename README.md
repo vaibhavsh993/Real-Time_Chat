@@ -1,7 +1,7 @@
 # Real-Time Chat Application
 
 ## Overview
-This document outlines the architecture, technology stack, system flow, API design, optimization strategies, and sample code snippets for a real-time chat application. The application supports one-to-one and group messaging with a responsive UI and efficient backend communication.
+This following writeup outlines the architecture, technology stack, system flow, API design, optimization strategies, and sample code snippets for a real-time chat application. The application supports one-to-one and group messaging with a responsive UI and efficient backend communication.
 
 ## **Technology Stack**
 ### **Cloud Integration**
@@ -137,7 +137,6 @@ export default function Chat() {
 ## **Build & Start Instructions**
 To build and start the application, use the following commands:
 
-![Build and Start](file-8Z1TXRydLiYaTa9RCiobnK)
 
 ```sh
 # Build the app
@@ -146,7 +145,3 @@ npm run build
 # Start the app
 npm start
 ```
-
-## **Conclusion**
-This document outlines a scalable and efficient real-time chat application using AWS, MongoDB Atlas, Node.js, and React.js. By implementing optimizations such as WebSocket-based communication, Redis Pub/Sub, and database indexing, the system ensures low latency and high availability. The sample code provided demonstrates key functionalities, including real-time message handling and frontend integration.
-
